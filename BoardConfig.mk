@@ -40,6 +40,9 @@ TARGET_RECOVERY_FSTAB := device/nexell/s5p4418_digital_cinema/recovery.fstab
 # opengl
 BOARD_EGL_CFG := device/nexell/s5p4418_digital_cinema/egl.cfg
 
+# Touch
+BOARD_USES_TSLIB := true
+
 USE_OPENGL_RENDERER := true
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 

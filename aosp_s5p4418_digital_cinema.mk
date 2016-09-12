@@ -29,7 +29,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 PRODUCT_NAME := aosp_s5p4418_digital_cinema
 PRODUCT_DEVICE := s5p4418_digital_cinema
 PRODUCT_BRAND := Android
-PRODUCT_MODEL := AOSP on Drone
+PRODUCT_MODEL := AOSP on s5p4418_digital_cinema
 PRODUCT_MANUFACTURER := NEXELL
 
 

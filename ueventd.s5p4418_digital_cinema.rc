@@ -4,6 +4,14 @@
 # ion
 /dev/ion                  0666   system     system
 
+# UART
+/dev/ttyAMA0              0666   system     system
+
+# I2C
+/dev/i2c-0                0666   system     system
+/dev/i2c-1                0666   system     system
+/dev/i2c-2                0666   system     system
+
 # v4l2
 /dev/media0               0666   system     system
 /dev/v4l-subdev*          0666   system     system

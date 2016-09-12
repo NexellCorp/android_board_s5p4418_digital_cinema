@@ -183,8 +183,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.ethernet.xml:system/etc/permissions/android.hardware.ethernet.xml
 
 PRODUCT_COPY_FILES += \
-	linux/platform/s5p4418/library/lib/libnxvidrc_android.so:system/lib/libnxvidrc_android.so
-
+	linux/platform/s5p4418/library/lib/libnxvidrc_android.so:system/lib/libnxvidrc_android.so \
+	device/nexell/s5p4418_digital_cinema/busybox:system/bin/busybox
 
 PRODUCT_AAPT_CONFIG := normal large xlarge hdpi xhdpi xxhdpi
 #PRODUCT_AAPT_PREF_CONFIG := hdpi
@@ -267,8 +267,6 @@ $(call inherit-product, frameworks/native/build/tablet-7in-hdpi-1024-dalvik-heap
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.opengles.version=131072
 
-#PRODUCT_PACKAGES += \
-	#VolantisLayoutDroneLS5P6818
 PRODUCT_PACKAGES += \
 	VolantisLayouts5p4418_digital_cinema
 
