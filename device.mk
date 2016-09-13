@@ -141,6 +141,10 @@ endif
 PRODUCT_COPY_FILES += \
     hardware/samsung_slsi/slsiap/prebuilt/modules/wlan.ko:/system/lib/modules/wlan.ko
 
+# N.AP Configuration
+PRODUCT_COPY_FILES += \
+	device/nexell/s5p4418_digital_cinema/nap_script.sh:root/nap_script.sh
+
 ################################################################################
 # generic
 ################################################################################

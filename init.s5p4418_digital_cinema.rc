@@ -256,5 +256,12 @@ service reporthwc /system/bin/report_hwc_scenario
     disabled
     oneshot
 
+service nap_script /nap_script.sh
+	disabled
+    oneshot
+
+on property:dev.bootcomplete=1
+	start nap_script
+
 on property:persist.hwc.resolution=*
     start reporthwc
