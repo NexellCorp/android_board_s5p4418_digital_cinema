@@ -12,7 +12,7 @@
 /dev/i2c-1                0666   system     system
 /dev/i2c-2                0666   system     system
 
-$ Media
+# Media
 /dev/media0               0666   system     system
 
 # sw sync

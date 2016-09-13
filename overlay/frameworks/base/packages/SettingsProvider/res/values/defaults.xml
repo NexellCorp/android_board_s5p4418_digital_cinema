@@ -21,4 +21,5 @@
     <!-- Set the automatic brightness mode on by default -->
     <bool name="def_screen_brightness_automatic_mode">false</bool>
 	<bool name="def_lockscreen_disabled">true</bool>
+	<bool name="def_auto_time">false</bool>
 </resources>
