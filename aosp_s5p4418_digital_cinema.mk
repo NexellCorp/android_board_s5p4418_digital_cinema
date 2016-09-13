@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 PRODUCT_PACKAGES += \
-    Launcher3
-
-PRODUCT_PACKAGES += \
     sensors.s5p4418_digital_cinema
 
 PRODUCT_PROPERTY_OVERRIDES := \
