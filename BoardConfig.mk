@@ -68,7 +68,7 @@ EN_DUAL_AUDIO := false
 # wifi
 # broadcom bcm4329
 # realtek 8188eu
-BOARD_WIFI_VENDOR := realtek
+#BOARD_WIFI_VENDOR := realtek
 ifeq ($(BOARD_WIFI_VENDOR),broadcom)
 BOARD_WPA_SUPPLICANT_DRIVER	:= NL80211
 WPA_SUPPLICANT_VERSION		:= VER_0_8_X
