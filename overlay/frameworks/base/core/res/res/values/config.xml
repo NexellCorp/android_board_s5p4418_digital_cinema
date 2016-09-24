@@ -76,7 +76,7 @@
     <integer name="config_screenBrightnessDim">2</integer>
 
     <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
-    <bool name="config_unplugTurnsOnScreen">false</bool>
+    <bool name="config_unplugTurnsOnScreen">true</bool>
 
     <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
          autodetected from the Configuration. -->
