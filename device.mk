@@ -307,3 +307,5 @@ $(call inherit-product-if-exists, hardware/samsung_slsi/slsiap/slsiap.mk)
 #$(call inherit-product-if-exists, vendor/nexell/apps/nxaudioplayer.mk)
 #$(call inherit-product-if-exists, vendor/nexell/apps/smartsync.mk)
 
+# VD Cinema Application
+$(call inherit-product-if-exists, vendor/nexell/apps/cinemacontrolpanel.mk)
