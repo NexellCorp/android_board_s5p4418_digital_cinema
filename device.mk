@@ -179,7 +179,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
 	linux/platform/s5p4418/library/lib/libnxvidrc_android.so:system/lib/libnxvidrc_android.so \
-	device/nexell/s5p4418_digital_cinema/busybox:system/bin/busybox
+	device/nexell/s5p4418_digital_cinema/busybox:system/bin/busybox \
+	device/nexell/s5p4418_digital_cinema/blank_wallpaper.jpg:system/etc/blank_wallpaper.jpg
 
 PRODUCT_AAPT_CONFIG := normal large xlarge hdpi xhdpi xxhdpi
 #PRODUCT_AAPT_PREF_CONFIG := hdpi

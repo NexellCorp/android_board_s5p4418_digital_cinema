@@ -2,4 +2,5 @@ ro.secure=0
 ro.adb.secure=0
 ro.allow.mock.location=0
 ro.debuggable=1
+ro.config.wallpaper=/system/etc/blank_wallpaper.jpg
 qemu.hw.mainkeys=1
