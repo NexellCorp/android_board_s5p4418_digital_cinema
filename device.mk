@@ -31,8 +31,8 @@ PRODUCT_COPY_FILES += \
 	device/nexell/s5p4418_digital_cinema/init.recovery.s5p4418_digital_cinema.rc:root/init.recovery.s5p4418_digital_cinema.rc \
 	device/nexell/s5p4418_digital_cinema/fstab.s5p4418_digital_cinema:root/fstab.s5p4418_digital_cinema \
 	device/nexell/s5p4418_digital_cinema/ueventd.s5p4418_digital_cinema.rc:root/ueventd.s5p4418_digital_cinema.rc \
-	device/nexell/s5p4418_digital_cinema/adj_lowmem.sh:root/adj_lowmem.sh \
-	device/nexell/s5p4418_digital_cinema/bootanimation.zip:system/media/bootanimation.zip
+	device/nexell/s5p4418_digital_cinema/adj_lowmem.sh:root/adj_lowmem.sh
+#	device/nexell/s5p4418_digital_cinema/bootanimation.zip:system/media/bootanimation.zip
 
 ################################################################################
 # recovery
