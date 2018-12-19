@@ -236,6 +236,7 @@ PRODUCT_COPY_FILES += \
 	linux/platform/s5p4418/apps/vd_cinema/lib/libnxcinema.so:system/lib/libnxcinema.so \
 	linux/platform/s5p4418/apps/vd_cinema/bin/nx_i2c:system/bin/nx_i2c \
 	linux/platform/s5p4418/apps/vd_cinema/bin/nx_i2c_finder:system/bin/nx_i2c_finder \
+	linux/platform/s5p4418/apps/vd_cinema/bin/nx_dump_logcat:system/bin/nx_dump_logcat \
 	linux/platform/s5p4418/apps/vd_cinema/bin/nap_server:system/bin/nap_server
 
 # Linaro
