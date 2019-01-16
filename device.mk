@@ -232,6 +232,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	linux/platform/s5p4418/apps/vd_cinema/script/nap_network:system/bin/nap_network \
 	linux/platform/s5p4418/apps/vd_cinema/script/nap_network.sh:system/bin/nap_network.sh \
+	linux/platform/s5p4418/apps/vd_cinema/script/nap_ntpd.sh:system/bin/nap_ntpd.sh \
 	linux/platform/s5p4418/apps/vd_cinema/script/nap_script.sh:system/bin/nap_script.sh \
 	linux/platform/s5p4418/apps/vd_cinema/lib/libnxcinema.so:system/lib/libnxcinema.so \
 	linux/platform/s5p4418/apps/vd_cinema/bin/nx_i2c:system/bin/nx_i2c \
